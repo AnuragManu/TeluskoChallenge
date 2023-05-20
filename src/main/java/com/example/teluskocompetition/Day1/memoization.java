@@ -2,7 +2,7 @@ package com.example.teluskocompetition.Day1;
 
 public class memoization {
     public static void main(String args[]) {// main function
-        int n =50;// size of the pascal's triangle
+        int n =50;// size of the pascal's triangle can be changed
         int dp[][] = new int[n+1][n+1]; // array to store for memoization
         printPascal(n,dp);
     }

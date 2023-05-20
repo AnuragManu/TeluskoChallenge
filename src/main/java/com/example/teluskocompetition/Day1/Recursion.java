@@ -2,7 +2,7 @@ package com.example.teluskocompetition.Day1;
 
 public class Recursion {
     public static void main(String args[]) { //main function
-        int n = 50;// size of the pascal's triangle
+        int n = 50;// size of the pascal's triangle can be changed 
         printPascal(n);
     }
 
