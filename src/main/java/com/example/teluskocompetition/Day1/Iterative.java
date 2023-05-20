@@ -2,7 +2,8 @@ package com.example.teluskocompetition.Day1;
 
 public class Iterative {
     public static void main (String args[]){// main function 
-        iterativePrint(50);// size of the pascal's triangle
+        int n = 50;// size of the pascal's triangle
+        iterativePrint(n);
     }
     public static void iterativePrint(int n) {// prints the pascal triangle iteratively
             for (int j = 0; j < (n + 1); j++) { // iterative 
